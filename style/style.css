@@ -20,6 +20,10 @@ img {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .attribution a {
@@ -163,7 +167,7 @@ body {
   width: 24px;
   position: absolute;
   right: 3%;
-  top: 29%;
+  top: 15%;
   opacity: 0;
 }
 
@@ -241,17 +245,29 @@ body {
   font-style: italic;
   font-size: .75em;
   color: #ff7a7a;
+  font-weight: 600;
+}
+
+.subcontainer2 form .form-control.error {
+  color: #ff7a7a;
+}
+
+.subcontainer2 form .form-control.error input {
+  border-color: #ff7a7a;
+}
+
+.subcontainer2 form .form-control.error .error-icon {
   opacity: 1;
 }
 
-.subcontainer2 .terms {
+.terms {
   width: 80%;
   color: #b9b6d3;
   text-align: center;
   font-size: .65em;
 }
 
-.subcontainer2 .terms span {
+.terms span {
   color: #ff7a7a;
   font-weight: 700;
 }
@@ -295,10 +311,13 @@ body {
     padding: 1.5rem 0;
   }
   .subcontainer2 form {
-    gap: 1.75rem;
+    gap: 1.5rem;
   }
   .subcontainer2 form input {
     padding: 1.25rem;
+  }
+  .subcontainer2 form .error-icon {
+    top: 25%;
   }
 }
 /*# sourceMappingURL=style.css.map */

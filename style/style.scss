@@ -87,7 +87,7 @@ body {
             width: 24px;
             position: absolute;
             right: 3%;
-            top: 29%;
+            top: 15%;
             opacity: 0;
         }
 
@@ -138,10 +138,22 @@ body {
                 font-style: italic;
                 font-size: .75em;
                 color: $red;
-                opacity: 1;
+                font-weight: 600;
+            }
+
+            &.error {
+                color: $red;
+                input {
+                    border-color: $red;
+                }
+
+                .error-icon {
+                    opacity: 1;
+                }
             }
         }
     }
+}
 
     .terms {
         width: 80%;
@@ -154,7 +166,6 @@ body {
             font-weight: 700;
         }
     }
-}
 
 @media screen and (min-width: 1024px) {
     body {
@@ -199,10 +210,14 @@ body {
         padding: 1.5rem 0;
 
         form {
-            gap: 1.75rem;
+            gap: 1.5rem;
 
             input {
                 padding: 1.25rem;
+            }
+
+            .error-icon {
+                top: 25%;
             }
         }
     }

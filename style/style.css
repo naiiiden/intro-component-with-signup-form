@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  background-image: url("../images/bg-intro-mobile.png");
+  background-color: #ff7a7a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+
+.container1 h1 {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 1rem;
+  width: 13rem;
+}
+
+.container1 .description {
+  color: #fff;
+  text-align: center;
+  font-size: .9em;
+  width: 17.5rem;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subcontainer1 {
+  padding: 1rem 0;
+  border-radius: 10px;
+  width: 90%;
+  background-color: #6055a5;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: .9em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.subcontainer1 span {
+  font-weight: 700;
+}
+
+.subcontainer1 p {
+  width: 10rem;
+}
+
+.subcontainer2 {
+  border-radius: 10px;
+  padding: 1rem 0;
+  width: 90%;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.subcontainer2 form {
+  width: 80%;
+  gap: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.subcontainer2 form .error-icon {
+  width: 24px;
+  position: absolute;
+  right: 3%;
+  top: 29%;
+  opacity: 0;
+}
+
+.subcontainer2 form input {
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #cfced9;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #3e3c49;
+}
+
+.subcontainer2 form input:focus {
+  outline: 1.5px solid black;
+}
+
+.subcontainer2 form ::-webkit-input-placeholder {
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: .8rem;
+}
+
+.subcontainer2 form :-ms-input-placeholder {
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: .8rem;
+}
+
+.subcontainer2 form ::-ms-input-placeholder {
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: .8rem;
+}
+
+.subcontainer2 form ::placeholder {
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: .8rem;
+}
+
+.subcontainer2 form button {
+  background-color: #38cc8c;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 0;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  -webkit-box-shadow: 0px 4px 0px #16a085;
+          box-shadow: 0px 4px 0px #16a085;
+}
+
+.subcontainer2 form button:hover {
+  opacity: 80%;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.subcontainer2 form .form-control {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .25rem;
+}
+
+.subcontainer2 form .form-control small {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-style: italic;
+  font-size: .75em;
+  color: #ff7a7a;
+  opacity: 1;
+}
+
+.subcontainer2 .terms {
+  width: 80%;
+  color: #b9b6d3;
+  text-align: center;
+  font-size: .65em;
+}
+
+.subcontainer2 .terms span {
+  color: #ff7a7a;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url("../images/bg-intro-desktop.png");
+  }
+  .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container2 {
+    width: 35%;
+  }
+  .container1 {
+    width: 32.5%;
+  }
+  .container1 h1 {
+    text-align: start;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-size: 3.5em;
+    width: 100%;
+    line-height: 1em;
+  }
+  .container1 .description {
+    text-align: start;
+    width: 85%;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    font-weight: 500;
+    font-size: 1em;
+  }
+  .subcontainer1 p {
+    width: 100%;
+  }
+  .subcontainer2 {
+    padding: 1.5rem 0;
+  }
+  .subcontainer2 form {
+    gap: 1.75rem;
+  }
+  .subcontainer2 form input {
+    padding: 1.25rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

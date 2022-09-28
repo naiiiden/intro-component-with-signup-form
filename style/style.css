@@ -181,12 +181,12 @@ body {
 
 .terms {
   width: 80%;
-  color: hsl(246deg, 25%, 77%);
+  color: #585086;
   text-align: center;
   font-size: 0.75em;
 }
 .terms span {
-  color: hsl(0deg, 100%, 74%);
+  color: #EB0000;
   font-weight: 700;
 }
 

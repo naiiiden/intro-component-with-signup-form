@@ -157,12 +157,14 @@ body {
 
     .terms {
         width: 80%;
-        color: $grayish-blue;
+        // color: $grayish-blue;
+        color: #585086;
         text-align: center;
         font-size: .75em;
 
         span {
-            color: $red;
+            // color: $red;
+            color: #EB0000;
             font-weight: 700;
         }
     }
